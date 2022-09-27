@@ -65,7 +65,7 @@ class Cerc(FormaGeometrica):
     def descrie(self):
         print('Cerc')
 
-patrat = Patrat(6)
+patrat = Patrat(13)
 print(patrat.aria())
 patrat.descrie()
 print(f' Latura este {patrat.latura}')
@@ -73,13 +73,13 @@ patrat.latura= 3
 print(patrat.aria())
 del patrat.latura
 print('-'*100)
-cerc = Cerc(6)
-print(cerc.raza)
-cerc.descrie()
-print(f' raza este {cerc.raza}')
-cerc.raza= 3
-print(cerc.aria())
-del cerc.raza
+# cerc = Cerc(6)
+# print(cerc.raza)
+# cerc.descrie()
+# print(f' raza este {cerc.raza}')
+# cerc.raza= 3
+# print(cerc.aria())
+# del cerc.raza
 
 
 
